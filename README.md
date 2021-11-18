@@ -1,2 +1,5 @@
 # dino-net_off
-Recria jogo do dinossauro sem internet
+
+Recriando o jogo do dinossauro sem internet
+
+*Bootcamp Impulso ReactJS da [DIO](https://web.dio.me)*
