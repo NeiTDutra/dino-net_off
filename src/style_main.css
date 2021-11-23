@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
 }
-#cena .dino {
+#dino {
     width: 70px;
     height: 85px;
     background-color: blue ;
@@ -9,6 +9,32 @@ body, html {
     bottom: 20%;
     margin-left: 5%;
 }
+@keyframes slideBg {
+    form {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+#cena {
+    background-image: url('/images/background.png');
+    background-repeat: repeat-x;
+    animation: slideBg 600s infinite linear;
+}
+#cactus {
+    width: 70px;
+    height: 85px;
+    background-color: brown;
+    position: absolute;
+    bottom: 20%;
+}
 .conatiner {
     height: 100%;
+}
+#score {
+    text-align: center;
+}
+#time {
+    text-align: center;
 }

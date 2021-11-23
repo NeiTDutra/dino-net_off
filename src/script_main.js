@@ -49,4 +49,25 @@ function jump() {
     }, 20);
 }
 
+function createCactus() {
+
+    const cactus = document.getElementById('cactus');
+    let cactusPosition = 1000;
+    let randomCactus = Math.random() * 6000;
+
+    if(isGameOver) return;
+
+    cactus.classList.add('cactus');
+    cactus.style.left = cactusPosition + 'px';
+
+    let leftTime = setInterval( () => {
+
+        if(cactusPosition < -60) {
+
+            clearInterval(leftTime);
+            
+        }
+    });
+}
+
 document.addEventListener('keyup', handleKeyUp);
