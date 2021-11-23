@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+}
+#cena .dino {
+    width: 70px;
+    height: 85px;
+    background-color: blue ;
+    position: absolute;
+    bottom: 20%;
+    margin-left: 5%;
+}
+.conatiner {
+    height: 100%;
+}
