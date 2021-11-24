@@ -62,6 +62,11 @@ function createCactus() {
     let cactusPosition = 70;
     let randomCactus = parseInt(Math.random() * 7000);
 
+    if(randomCactus < 1000) {
+
+        randomCactus += 1000; 
+    }
+
     if(isGameOver) {
         
         timer = false;
