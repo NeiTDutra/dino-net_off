@@ -2,40 +2,24 @@ body, html {
     height: 100%;
 }
 #dino {
-    width: 70px;
-    height: 85px;
-    background-color: blue;
-    background-image: url('/images/dinoCorrendo.gif') !important;
-    z-index: 100;
+    width: 128px;
+    height: 100px;
+    background-image: url('../images/dinoCorrendo.gif');
     position: absolute;
     bottom: 20%;
     margin-left: 5%;
 }
 .cactus {
-    width: 70px;
-    height: 85px;
-    background-color: brown;
-    background-image: url('/images/cactus.png') !important;
-    z-index: 100;
+    width: 45px;
+    height: 60px;
+    background-image: url('../images/cactus.png');
     position: absolute;
     bottom: 20%;
 }
-@keyframes slideBg {
-    form {
-        background-position: 70000%;
-    }
-    to {
-        background-position: 0%;
-    }
-}
 #cena {
-    background-color: aliceblue;
-    background-image: url('/images/cenario.png') !important;
-    background-repeat: repeat-x;
-    animation: slideBg 600s infinite linear;
-}
-#cena a {
-    text-align: center;
+    background-image: url('../images/cenario2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .gameOverText {
     text-align: center;
