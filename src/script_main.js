@@ -62,7 +62,7 @@ function createCactus() {
     let cactusPosition = 70;
     let randomCactus = parseInt(Math.random() * 7000);
 
-    if(randomCactus < 1000) {
+    if(randomCactus < 500 & randomCactus > 200) {
 
         randomCactus += 1000; 
     }
@@ -91,7 +91,7 @@ function createCactus() {
             clearInterval(leftTime);
             document
                 .getElementById('cena')
-                .innerHTML = '<h1 class="gameOverText">Fim de jogo!!</h1><p class="text-center"><a href="index.html">Recarregar</a></p>';
+                .innerHTML = '<h1 class="gameOverText">Fim de jogo!!</h1><p class="text-center"><a class="btn btn-primary" href="index.html">Recarregar</a></p>';
             isGameOver = true;
 
         }
